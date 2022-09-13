@@ -43,7 +43,8 @@ main p .buttonxd {
   background-color: rgb(221, 174, 246);
   border: double purple;
   padding: 5px 20px;
-  margin-top: 2%;
+  margin-top: 1%;
+  margin: 1%;
   border-radius: 5px;
 }
 main main {
