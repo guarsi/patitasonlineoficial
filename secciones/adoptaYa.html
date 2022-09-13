@@ -1,22 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="descripcion" content="html, gatos, gatitos, adoptar, mascotas, adopcion">
-    <title></title>
+    <meta
+      name="descripcion"
+      content="html, gatos, gatitos, adoptar, mascotas, adopcion"
+    />
+    <title>AdoptaYa</title>
     <link rel="stylesheet" href="../estilos/estilos.css" />
-    <link rel="shortcut icon" href="../multimedia/pediatria_felina_web.jpg" type="image/x-icon" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" />
+    <link
+      rel="shortcut icon"
+      href="../multimedia/pediatria_felina_web.jpg"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap"
+    />
     <title>Adopta Ya</title>
-</head>
+    <script
+      src="https://kit.fontawesome.com/af952fbd0d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <header>
-        <!--navbar-->
+      <!--navbar-->
       <nav class="navbar navbar-expand-md navbar-dark">
         <!-- Brand -->
         <a class="navbar-brand" href="../index.html">Patitas Online</a>
@@ -35,22 +53,16 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="adoptaYa.html"
-                >Adopta Ya</a
-              >
+              <a class="nav-link" href="adoptaYa.html">Adopta Ya</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contacto.html">Contacto</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="iniciarSesion.html"
-                >Iniciar Sesion</a
-              >
+              <a class="nav-link" href="iniciarSesion.html">Iniciar Sesion</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="registrarse.html"
-                >Registrarse</a
-              >
+              <a class="nav-link" href="registrarse.html">Registrarse</a>
             </li>
           </ul>
         </div>
@@ -58,81 +70,186 @@
       <!--finnavbar-->
     </header>
     <main>
-        <h1>¡Adopta Ya!</h1>
-        <div class="center">
-            <img src="../multimedia/chococatAcostado.jpg" width="10%" alt="Imagen de Chococat acostado" />
-            <br/>
+      <h1>¡Adopta Ya!</h1>
+      <div class="center">
+        <img
+          id="chococat"
+          src="../multimedia/chococatAcostado.jpg"
+          width="10%"
+          alt="Imagen de Chococat acostado"
+        />
+        <br />
+
+        <div class="carrusel">
+          <div id="conteitemscarrusel">
+            <div class="itemcarrusel" id="itemcarrusel1">
+              <div class="tarjetacarrusel" id="carrusel1">
+                <img src="../multimedia/naruto.jpg" alt="" />
+              </div>
+              <div class="flechascarrusel">
+                <a href="#itemcarrusel3">
+                  <i class="fa-solid fa-left-long"></i>
+                </a>
+                <a href="#itemcarrusel2">
+                  <i class="fa-solid fa-right-long"></i>
+                </a>
+              </div>
             </div>
-            <div class="contenedor">
-            <div class="item1 item"></div>
-            <div class="item2 item"></div>
-            <div class="item3 item"></div>
-            <div class="item4 item"></div>
-            <div class="item5 item"></div>
-            <div class="item6 item"></div>
+
+            <div class="itemcarrusel" id="itemcarrusel2">
+              <div class="tarjetacarrusel" id="carrusel2">
+                <img src="../multimedia/milo.jpg" alt="" />
+              </div>
+              <div class="flechascarrusel">
+                <a href="#itemcarrusel1">
+                  <i class="fa-solid fa-left-long"></i>
+                </a>
+                <a href="#itemcarrusel3">
+                  <i class="fa-solid fa-right-long"></i>
+                </a>
+              </div>
             </div>
 
-            <p>
-                ¡Hola! Para finalmente ser miembro de Patitas Online y poder adoptar a
-                tu gatito deberás seguir los siguientes pasos:
-            </p>
-            <div class="preguntas">
-                <ul>
-                    <li>1- Contanos porque te gustaria adoptar un gatito.</li>
-                    <li>
-                        2- Responde las siguientes preguntas para comprobar si sos apt@
-                        para adoptar a tu nueva mascota.
-                    </li>
-                    <li>
-                        3- Dejanos tu numero de contacto, también tu ciudad de residencia
-                        y zona.
-                    </li>
-                </ul>
+            <div class="itemcarrusel" id="itemcarrusel3">
+              <div class="tarjetacarrusel" id="carrusel3">
+                <img src="../multimedia/gatonaranja.jpg" alt="" />
+              </div>
+              <div class="flechascarrusel">
+                <a href="#itemcarrusel2">
+                  <i class="fa-solid fa-left-long"></i>
+                </a>
+                <a href="#itemcarrusel4">
+                  <i class="fa-solid fa-right-long"></i>
+                </a>
+              </div>
             </div>
-            <form action="">
-                <label for="porqueTeGustariaAdoptarUnGato"><b>1-¿Porque te gustaría adoptar un gato?</b></label>
-                <input type="text" name="porqueTeGustariaAdoptarUnGato" /> <br />
-                <div>
-                    <label for="trabaja"><b> 2-¿Tenés un trabajo estable?</b></label>
-                    <input class="radios" type="radio" name="trabaja" /> Si
-                    <input class="radios" type="radio" name="trabaja" /> No <br />
 
-                    <label for="balcón"><b>¿Tenés balcón cerrado o con red?</b></label>
-                    <input class="radios" type="radio" name="balcón" /> Si
-                    <input class="radios" type="radio" name="balcón" /> No <br />
+            <div class="itemcarrusel" id="itemcarrusel4">
+              <div class="tarjetacarrusel" id="carrusel4">
+                <img src="../multimedia/gatosiames.jpg" alt="" />
+              </div>
+              <div class="flechascarrusel">
+                <a href="#itemcarrusel3">
+                  <i class="fa-solid fa-left-long"></i>
+                </a>
+                <a href="#itemcarrusel5">
+                  <i class="fa-solid fa-right-long"></i>
+                </a>
+              </div>
+            </div>
 
-                    <label for="entrevista"><b>
-                            ¿Estás dispuest@ a una entrevista para conocedrte y ver si las
-                            condiciones de la vivienda son aptas?</b></label>
-                    <input class="radios" type="radio" name="entrevista" /> Si
-                    <input class="radios" type="radio" name="entrevista" /> No <br />
-
-                    <label for="telefono">
-                        <b>3-Dejanos tu télefono para comunicarnos!</b></label>
-                </div>
-
-                <input type="text" name="telefono" /> <br />
-                <label for="email"><b>Dejanos tu email para comunicarnos!</b></label>
-                <input type="email" name="email" /> <br />
-
-                <button class="buttonxd" type="submit">Enviar</button>
-            </form>
+            <div class="itemcarrusel" id="itemcarrusel5">
+              <div class="tarjetacarrusel" id="carrusel5">
+                <img src="../multimedia/gato3colores.jpg" alt="" />
+              </div>
+              <div class="flechascarrusel">
+                <a href="#itemcarrusel4">
+                  <i class="fa-solid fa-left-long"></i>
+                </a>
+                <a href="#itemcarrusel6">
+                  <i class="fa-solid fa-right-long"></i>
+                </a>
+              </div>
+            </div>
+            <div class="itemcarrusel" id="itemcarrusel6">
+              <div class="tarjetacarrusel" id="carrusel6">
+                <img
+                  id="Naruto"
+                  src="../multimedia/gatonegro.jpg"
+                  alt="Naruto"
+                />
+              </div>
+              <div class="flechascarrusel">
+                <a href="#itemcarrusel5">
+                  <i class="fa-solid fa-left-long"></i>
+                </a>
+                <a href="#itemcarrusel1">
+                  <i class="fa-solid fa-right-long"></i>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <p>
+        ¡Hola! Para finalmente ser miembro de Patitas Online y poder adoptar a
+        tu gatito deberás seguir los siguientes pasos:
+      </p>
+
+      <div class="preguntas">
+        <ul>
+          <li>1- Contanos porque te gustaria adoptar un gatito.</li>
+          <li>
+            2- Responde las siguientes preguntas para comprobar si sos apt@ para
+            adoptar a tu nueva mascota.
+          </li>
+          <li>
+            3- Dejanos tu numero de contacto, también tu ciudad de residencia y
+            zona.
+          </li>
+        </ul>
+      </div>
+      <form action="">
+        <label for="porqueTeGustariaAdoptarUnGato"
+          ><b>1-¿Porque te gustaría adoptar un gato?</b></label
+        >
+        <input type="text" name="porqueTeGustariaAdoptarUnGato" /> <br />
+        <div>
+          <label for="trabaja"><b> 2-¿Tenés un trabajo estable?</b></label>
+          <input class="radios" type="radio" name="trabaja" /> Si
+          <input class="radios" type="radio" name="trabaja" /> No <br />
+
+          <label for="balcón"><b>¿Tenés balcón cerrado o con red?</b></label>
+          <input class="radios" type="radio" name="balcón" /> Si
+          <input class="radios" type="radio" name="balcón" /> No <br />
+
+          <label for="entrevista"
+            ><b>
+              ¿Estás dispuest@ a una entrevista para conocedrte y ver si las
+              condiciones de la vivienda son aptas?</b
+            ></label
+          >
+          <input class="radios" type="radio" name="entrevista" /> Si
+          <input class="radios" type="radio" name="entrevista" /> No <br />
+
+          <label for="telefono">
+            <b>3-Dejanos tu télefono para comunicarnos!</b></label
+          >
+        </div>
+
+        <input type="text" name="telefono" /> <br />
+        <label for="email"><b>Dejanos tu email para comunicarnos!</b></label>
+        <input type="email" name="email" /> <br />
+
+        <button class="buttonxd" type="submit">Enviar</button>
+      </form>
     </main>
 
     <footer>
-        <!-- Footer reutilizable -->
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="adoptaYa.html"> Adopta ya </a></li>
-            <li><a href="registrarse.html">Registrarse</a></li>
-            <li><a href="iniciarSesion.html">Iniciar Sesión</a></li>
-            <li><a href="contacto.html">Contacto </a></li>
-        </ul>
+      <!-- Footer reutilizable -->
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="adoptaYa.html"> Adopta ya </a></li>
+        <li><a href="registrarse.html">Registrarse</a></li>
+        <li><a href="iniciarSesion.html">Iniciar Sesión</a></li>
+        <li><a href="contacto.html">Contacto </a></li>
+      </ul>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
